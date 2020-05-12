@@ -6,8 +6,12 @@
 
 FROM tensorflow/tensorflow:1.15.0-gpu-py3
 
+RUN apt-get update
+RUN apt-get install git -y
+
 RUN pip install scipy==1.3.3
 RUN pip install requests==2.22.0
 RUN pip install Pillow==6.2.1
-RUN mkdir /model
+RUN mkdir /model &&cd $_ && git clone https://github.com/GuillaumeAI/stylegan2.git .
+
 
