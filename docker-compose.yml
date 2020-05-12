@@ -1,6 +1,7 @@
 version: "3"
 
 services:
+  aiserver:
     build: 
       context: ./bin/stylegan2
     container_name: 'jg-stylegan2'
