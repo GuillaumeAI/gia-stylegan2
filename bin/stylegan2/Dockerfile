@@ -14,4 +14,5 @@ RUN pip install requests==2.22.0
 RUN pip install Pillow==6.2.1
 RUN mkdir /model &&cd $_ && git clone https://github.com/GuillaumeAI/stylegan2.git .
 
+RUN apt-get install vim -y
 
