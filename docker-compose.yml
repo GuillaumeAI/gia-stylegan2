@@ -4,6 +4,5 @@ services:
     build: 
       context: ./bin/stylegan2
     container_name: 'jg-stylegan2'
-    restart: 'always'
     volumes: 
       - ${DOCUMENT_ROOT-./}:/model
