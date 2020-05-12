@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker exec -it stylegan2_aiserver "bash"
+docker exec -it jg-stylegan2 "bash"
