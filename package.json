@@ -1,0 +1,23 @@
+{
+  "name": "stylegan2",
+  "version": "1.0.0",
+  "description": "Run the network GAN to create image",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "docker build - < Dockerfile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jgwill/7ART816/tree/master/neurips2019creativity.github.io"
+  },
+  "keywords": [
+    "gan",
+    "ai"
+  ],
+  "author": "Guillaume Descoteaux-Isabelle",
+  "license": "MIT"
+}
