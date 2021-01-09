@@ -17,6 +17,7 @@ RUN mkdir /model &&cd $_ && git clone https://github.com/GuillaumeAI/gia-stylega
 RUN apt-get install vim -y
 
 RUN pip install lmdb
+RUN pip install opencv-contrib-python
 
 WORKDIR /model
 
